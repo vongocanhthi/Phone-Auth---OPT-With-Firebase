@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "343806615883",
+    "firebase_url": "https://phone-auth-666c0.firebaseio.com",
+    "project_id": "phone-auth-666c0",
+    "storage_bucket": "phone-auth-666c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343806615883:android:c8983a522c9396cc8848ce",
+        "android_client_info": {
+          "package_name": "com.vnat.phoneauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343806615883-r2o18moceu2vh2dhheavttobs4i5b3gn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vnat.phoneauth",
+            "certificate_hash": "97b00667df35ccaf5e800e6faf6eb50f40eb8393"
+          }
+        },
+        {
+          "client_id": "343806615883-ssvkp8s004usva3g8kli01jmgojc4ddc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSIyIBqk_D3Efnu6jXOHlJ3nt5Z5jCYrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343806615883-ssvkp8s004usva3g8kli01jmgojc4ddc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
