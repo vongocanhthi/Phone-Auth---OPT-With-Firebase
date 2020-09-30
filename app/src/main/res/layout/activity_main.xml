@@ -36,55 +36,11 @@
             android:maxLines="1" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right|center_vertical"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/txtTime"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:text="00:60"
-            android:textSize="25dp" />
-
-        <Button
-            android:id="@+id/btnRequestOTP"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Request OTP" />
-
-    </LinearLayout>
-
-    <com.chaos.view.PinView
-        android:id="@+id/pvVerifyOTP"
-        style="@style/PinWidget.PinView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:cursorVisible="false"
-        android:inputType="number"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textStyle="bold"
-        app:cursorColor="@android:color/holo_blue_light"
-        app:itemCount="6"
-        app:itemRadius="5dp" />
-
     <Button
-        android:id="@+id/btnVeryfyOTP"
+        android:id="@+id/btnRequestOTP"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="Veryfy OTP" />
+        android:text="Request OTP" />
 
-    <Button
-        android:id="@+id/btnLogout"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Log out" />
 </LinearLayout>

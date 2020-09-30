@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyOtpActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.chaos.view.PinView
+            android:id="@+id/pvVerifyOTP"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            app:cursorColor="@android:color/holo_blue_light"
+            app:itemCount="6"
+            app:itemRadius="5dp"
+            android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnVerifyOTP"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Verify OTP"/>
+
+</LinearLayout>
